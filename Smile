@@ -20,6 +20,10 @@ CdSection:NewButton("No cd Katana", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.Katana.Cooldown.Value = 0
 end)
 
+CdSection:NewButton("No cd Bat", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.Bat.Cooldown.Value = 0
+end)
+
 local SpeedTab = Window:NewTab("Speeds")
 local SpeedSection = SpeedTab:NewSection("Speeds")
 
