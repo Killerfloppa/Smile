@@ -1,0 +1,28 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Infection Smile", "Ocean")
+
+local CdTab = Window:NewTab("No cd")
+local CdSection = CdTab:NewSection("No cd")
+
+CdSection:NewButton("No cd Braunch", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.Branch.Cooldown.Value = 0
+end)
+
+CdSection:NewButton("No cd Spear", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.Spear.Cooldown.Value = 0
+end)
+
+CdSection:NewButton("No cd Chain", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.Chain.Cooldown.Value = 0
+end)
+
+CdSection:NewButton("No cd Katana", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.Katana.Cooldown.Value = 0
+end)
+
+local SpeedTab = Window:NewTab("Speeds")
+local SpeedSection = SpeedTab:NewSection("Speeds")
+
+SpeedSection:NewButton("Speed GUI 30", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/3HNseGjB"))()
+end)
